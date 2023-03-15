@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Account</title>
+
+<style>
+#box{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+
+    
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+
+#tiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid grey; 
+    margin: 15px;
+    border-radius: 10px;
+       width: 50px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        
+   
+}
+
+#tiles:hover {
+    background-color: lightgray;
+}
+
+
+
+#notice{
+width: 500px;
+height: 100px;
+border: 2px solid black;
+background-color: rgb(193, 190, 190);
+justify-content: baseline;
+margin: 50px;
+
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+     
+    <div id="box">
+        <h1>  Verify Your Account</h1>
+
+            <h5><p>We emailed you the six digit code to cool_guy@email.com</p>
+                <p>Enter the code below to confirm your email address.</p></h5>
+            
+         
+
+            <div id="container">
+                <input type="text" id="tiles" maxlength="1">
+        <input type="text" id="tiles" maxlength="1" value="0">
+        <input type="text" id="tiles" maxlength="1" value="0">
+        <input type="text" id="tiles" maxlength="1" value="0">
+        <input type="text" id="tiles" maxlength="1" value="0">
+        <input type="text" id="tiles" maxlength="1" value="0">
+
+                <div id="notice" >
+
+                   
+                       <p>
+                           This is design only.We didn't actually send you an email as we don't have your email,right?
+                       </p>
+                    
+                  </div>
+            </div>
+               </div> 
+
+</div>
+</body>
+</html>
